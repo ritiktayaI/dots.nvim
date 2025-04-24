@@ -57,3 +57,4 @@ vim.api.nvim_set_keymap('t', '<C-v><Esc>', [[<Esc>]], { noremap = true, silent =
 -- vim.api.nvim_set_hl(0, "TermCursor", { link = "Cursor" })
 -- vim.api.nvim_set_hl(0, "TermCursorNC", { guibg = "red", guifg = "white", ctermbg = 1, ctermfg = 15 })
 
+vim.opt.signcolumn = "yes:1"
